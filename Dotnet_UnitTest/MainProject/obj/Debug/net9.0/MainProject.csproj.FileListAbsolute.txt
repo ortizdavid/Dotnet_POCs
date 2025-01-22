@@ -1,0 +1,14 @@
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\bin\Debug\net9.0\MainProject.exe
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\bin\Debug\net9.0\MainProject.deps.json
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\bin\Debug\net9.0\MainProject.runtimeconfig.json
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\bin\Debug\net9.0\MainProject.dll
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\bin\Debug\net9.0\MainProject.pdb
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.AssemblyInfoInputs.cache
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.AssemblyInfo.cs
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.csproj.CoreCompileInputs.cache
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.dll
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\refint\MainProject.dll
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.pdb
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\MainProject.genruntimeconfig.cache
+C:\Users\ortiz\projectos\projectos-dotnet\Dotnet_POCS\Dotnet_UnitTest\MainProject\obj\Debug\net9.0\ref\MainProject.dll
