@@ -10,7 +10,7 @@ It's a collection of programming drafts and practical experiments.
 
 ## Projects
 Here’s a quick overview of what’s inside:
-- Unit Tests
+- Dotnet_UnitTest
 - Generic Repository
 
 ## Purpose
