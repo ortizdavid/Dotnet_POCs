@@ -1,50 +1,49 @@
-namespace MainProject.Customers
+namespace MainProject.Customers;
+
+public class CustomerManager
 {
-    public class CustomerManager
+    private readonly List<Customer> _customerList;
+
+    public CustomerManager()
     {
-        private readonly List<Customer> _customerList;
+        _customerList = new List<Customer>();
+    }
 
-        public CustomerManager()
+    public void Add(Customer customer)
+    {
+        if (_customerList.Any(x => x.Code == customer.Code))
         {
-            _customerList = new List<Customer>();
+            throw new InvalidOperationException($"Customer code '{customer.Code}' already exists");
         }
+        _customerList.Add(customer);
+    }
 
-        public void Add(Customer customer)
+    public void Remove(string code)
+    {
+        if (!_customerList.Any())
         {
-            if (_customerList.Any(x => x.Code == customer.Code))
-            {
-                throw new InvalidOperationException($"Customer code '{customer.Code}' already exists");
-            }
-            _customerList.Add(customer);
+            throw new Exception("Customers List is empty");
         }
+        var customer = _customerList.FirstOrDefault(x => x.Code == code);
+        if (customer is null)
+        {
+            throw new KeyNotFoundException($"Customer with code '{code}' does not exist.");
+        }
+        _customerList.Remove(customer);
+    }
 
-        public void Remove(string code)
-        {
-            if (!_customerList.Any())
-            {
-                throw new Exception("Customers List is empty");
-            }
-            var customer = _customerList.FirstOrDefault(x => x.Code == code);
-            if (customer is null)
-            {
-                throw new KeyNotFoundException($"Customer with code '{code}' does not exist.");
-            }
-            _customerList.Remove(customer);
-        }
+    public double SumBalances()
+    {
+        return _customerList.Sum(x => x.Balance);
+    }
 
-        public double SumBalances()
-        {
-            return _customerList.Sum(x => x.Balance);
-        }
+    public int Count()
+    {
+        return _customerList.Count;
+    }
 
-        public int Count()
-        {
-            return _customerList.Count;
-        }
-
-        public bool HasValues()
-        {
-            return _customerList.Any();
-        }
+    public bool HasValues()
+    {
+        return _customerList.Any();
     }
 }

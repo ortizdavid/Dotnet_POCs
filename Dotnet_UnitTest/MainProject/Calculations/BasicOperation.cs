@@ -1,29 +1,28 @@
-namespace MainProject.Calculations
+namespace MainProject.Calculations;
+
+public class BasicOperation
 {
-    public class BasicOperation
+    public int Sum(int a, int b)
     {
-        public int Sum(int a, int b)
-        {
-            return a + b;
-        }
+        return a + b;
+    }
 
-        public int Subtract(int a, int b)
-        {
-            return a - b;
-        }
+    public int Subtract(int a, int b)
+    {
+        return a - b;
+    }
 
-        public int Multiply(int a, int b)
-        {
-            return a * b;
-        }
+    public int Multiply(int a, int b)
+    {
+        return a * b;
+    }
 
-        public float Divide(float a, float b)
+    public float Divide(float a, float b)
+    {
+        if (b == 0)
         {
-            if (b == 0)
-            {
-                throw new DivideByZeroException("b must be different than 0");
-            }
-            return a / b;
+            throw new DivideByZeroException("b must be different than 0");
         }
+        return a / b;
     }
 }

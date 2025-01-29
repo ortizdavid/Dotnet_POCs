@@ -1,4 +1,4 @@
-USE Dotnet_Generic_Repository;
+USE POCS_Generic_Repository;
 GO
 
 CREATE TABLE Customers (

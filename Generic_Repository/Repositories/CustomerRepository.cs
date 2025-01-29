@@ -1,11 +1,10 @@
 using GenericRepository.Models;
 
-namespace GenericRepository.Repositories
+namespace GenericRepository.Repositories;
+
+public class CustomerRepository : RepositoryBase<Customer>
 {
-    public class CustomerRepository : RepositoryBase<Customer>
+    public CustomerRepository(AppDbContext context) : base(context)
     {
-        public CustomerRepository(AppDbContext context) : base(context)
-        {
-        }
     }
 }
